@@ -1,0 +1,46 @@
+{
+  "name": "karma-jasmine-webpack-react-babel6-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "Karma + Jasmine + Rewire + Webpack + ES6/Babel 6 + React boilerplate",
+  "main": "karma.conf.js",
+  "author": {
+    "name": "Jesus Vilar",
+    "email": "jesus.vilar@gmail.com"
+  },
+  "keywords": [
+    "Karma",
+    "Jasmine",
+    "ES6",
+    "React",
+    "Rewire",
+    "Webpack",
+    "Babel 6"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-core"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-rewire": "^1.0.0-beta-3",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-template": "^6.3.13",
+    "babel-types": "^6.3.18",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.15",
+    "karma-es5-shim": "0.0.4",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "phantomjs": "^1.9.19",
+    "react-addons-test-utils": "^0.14.3",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "react": "^0.14.3"
+  }
+}

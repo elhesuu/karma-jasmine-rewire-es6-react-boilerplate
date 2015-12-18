@@ -5,13 +5,13 @@ module.exports = {
     debug: true,
     devtool: 'sourcemap',
     plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoErrorsPlugin()
     ],
     entry: [
-    'webpack-dev-server/client?http://localhost:3001',
-    'webpack/hot/only-dev-server',
-    './src/app.js'
+        'webpack-dev-server/client?http://localhost:3001',
+        'webpack/hot/only-dev-server',
+        './src/app.js'
     ],
     output: {
         path: path.join(__dirname, './dist'),

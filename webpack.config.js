@@ -1,24 +1,3 @@
-/*module.exports = {
-entry: './src/app.js',
-output: {
-path: 'dist',
-filename: 'bundle.js'
-},
-alias: {
-'lodash': 'lodash-es/lodash',
-},
-module: {
-loaders: [{
-    test: /\.jsx?$/,
-    exclude: /(node_modules|bower_components)/,
-    loader: 'babel',
-    query: {
-        presets: ['react', 'es2015']
-    }
-}]    
-}
-};*/
-
 var path = require('path'),
 webpack = require('webpack');
 
